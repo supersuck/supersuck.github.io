@@ -9054,5 +9054,30 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
+/* line 1, ../sass/_main.scss */
+.preloader {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: none repeat scroll 0 0;
+  background-color: #616161;
+  opacity: 0.7;
+  z-index: 999;
+}
+
+/* line 15, ../sass/_main.scss */
+.preloader-container {
+  display: block;
+  position: fixed;
+  height: 64px;
+  width: 64px;
+  top: calc(50% - 32px);
+  left: calc(50% - 32px);
+  z-index: 1000;
+}
 
 /*# sourceMappingURL=materialize.css.map */
