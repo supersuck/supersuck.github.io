@@ -1,2 +1,2 @@
-# supersuck.github.io
-see in http://supersuck.github.io
+# repository for cv
+see in http://cv.wouyang.com
