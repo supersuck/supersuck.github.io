@@ -2,6 +2,7 @@
 <head>
     <title>CV wouyang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="src/css/materialize.css">
     <script type="text/javascript" src="src/js/jquery-2.1.1.min.js"></script>
@@ -9,40 +10,22 @@
     <script src="src/js/main.js"></script>
 </head>
 <body>
+<!--fixed action button-->
+<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large blue">
+        <i class="large material-icons">settings</i>
+    </a>
+    <ul>
+        <li><a class="btn-floating blue"><i class="material-icons">file_download</i></a></li>
+        <li><a class="btn-floating blue" id="toggle_color"><i class="material-icons">invert_colors</i></a></li>
+    </ul>
+</div>
+
+<!--preloader-->
 <div class="preloader">
     <div class="preloader-container">
         <div class="preloader-wrapper big active">
-            <div class="spinner-layer spinner-blue">
-                <div class="circle-clipper left">
-                    <div class="circle"></div>
-                </div><div class="gap-patch">
-                <div class="circle"></div>
-            </div><div class="circle-clipper right">
-                <div class="circle"></div>
-            </div>
-            </div>
-
-            <div class="spinner-layer spinner-red">
-                <div class="circle-clipper left">
-                    <div class="circle"></div>
-                </div><div class="gap-patch">
-                <div class="circle"></div>
-            </div><div class="circle-clipper right">
-                <div class="circle"></div>
-            </div>
-            </div>
-
-            <div class="spinner-layer spinner-yellow">
-                <div class="circle-clipper left">
-                    <div class="circle"></div>
-                </div><div class="gap-patch">
-                <div class="circle"></div>
-            </div><div class="circle-clipper right">
-                <div class="circle"></div>
-            </div>
-            </div>
-
-            <div class="spinner-layer spinner-green">
+            <div class="spinner-layer spinner-blue-only">
                 <div class="circle-clipper left">
                     <div class="circle"></div>
                 </div><div class="gap-patch">
@@ -55,29 +38,71 @@
     </div>
 </div>
 
+<!--navbar-->
 <div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper">
+    <nav class="blue">
+        <div class="nav-wrapper container">
             <a href="#!" class="brand-logo">Logo</a>
-            <a href="#" data-activates="mobile-demo" class="left button-collapse"><i class="material-icons">menu</i></a>
+            <a href="#!" data-activates="mobile-demo" class="left button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Resume</a></li>
-                <li><a href="badges.html">Portfolio</a></li>
-                <li><a href="collapsible.html">Team</a></li>
-                <li><a href="mobile.html">Contact</a></li>
+                <li><a href="#!">ABOUT ME</a></li>
+                <li><a href="#!">EXPERIENCES</a></li>
+                <li><a href="#!">SKILLS</a></li>
+                <li><a href="#!">EDUCATION</a></li>
+                <li><a href="#!">INTERESTS</a></li>
+                <li><a href="#!">CONTACT</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
-                <li><a href="sass.html">Resume</a></li>
-                <li><a href="badges.html">Portfolio</a></li>
-                <li><a href="collapsible.html">Team</a></li>
-                <li><a href="mobile.html">Contact</a></li>
+                <li><a href="#!">About</a></li>
+                <li><a href="#!">Experiences</a></li>
+                <li><a href="#!">Skills</a></li>
+                <li><a href="#!">Education</a></li>
+                <li><a href="#!">Interests</a></li>
+                <li><a href="#!">Contact</a></li>
             </ul>
         </div>
     </nav>
 </div>
 
+<!--homepage-->
 <div class="parallax-container">
-    <div class="parallax"><img src="src/images/background2.jpg"></div>
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="center white-text">Wu Xing Hong Qi</h1>
+            <div class="row center">
+                <h5 class="col s12 light white-text">Les choix de portabilité interne ou externe sont remontés par la ressource</h5>
+            </div>
+            <div class="row center">
+                <a href="#!" id="download-button" class="btn-large waves-effect waves-light blue">
+                    <i class="material-icons left">send</i>
+                    Angelababy
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="parallax">
+        <img src="src/images/bg.jpg">
+    </div>
+</div>
+
+<!--About me-->
+<div id="about" class="section">
+    <div class="row">
+        <div class="col s12">
+            <h3>title here</h3>
+            <h3>title here</h3>
+            <h3>title here</h3>
+            <h3>title here</h3>
+            <h3>title here</h3>
+            <h3>title here</h3>
+            <h3>title here</h3>
+            <h3>title here</h3>
+            <h3>title here</h3>
+            <h3>title here</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid amet assumenda at beatae ea eaque enim, error esse et ex expedita facere illum impedit ipsa iusto libero modi molestiae mollitia nihil nobis officiis pariatur perferendis, perspiciatis placeat quae qui quia quod quos recusandae rerum sapiente sint, tempora tempore vitae voluptate voluptatem! Accusamus, aperiam, ullam? Ab commodi minus, odio officia tempore vitae voluptates! Ab asperiores assumenda consectetur deleniti, dolores ea eius eos expedita id impedit ipsa ipsum iste iure modi nobis nostrum omnis optio praesentium quam quasi reiciendis rem soluta temporibus velit vero voluptas voluptatibus! Fuga ipsum nemo nesciunt quae.
+        </div>
+    </div>
 </div>
 
 </body>
