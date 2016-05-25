@@ -9054,7 +9054,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
-/* line 1, ../sass/_main.scss */
+/* line 1, ../sass/_preloader.scss */
 .preloader {
   top: 0;
   right: 0;
@@ -9063,13 +9063,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   position: fixed;
   height: 100%;
   width: 100%;
-  background: none repeat scroll 0 0;
-  background-color: #616161;
+  background: #616161 none repeat scroll 0 0;
   opacity: 0.7;
   z-index: 999;
 }
 
-/* line 15, ../sass/_main.scss */
+/* line 14, ../sass/_preloader.scss */
 .preloader-container {
   display: block;
   position: fixed;
@@ -9078,6 +9077,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   top: calc(50% - 32px);
   left: calc(50% - 32px);
   z-index: 1000;
+}
+
+/* line 1, ../sass/_parallax.scss */
+.parallax-container {
+  height: 80vh;
 }
 
 /*# sourceMappingURL=materialize.css.map */
