@@ -12,12 +12,12 @@
 <body class="blue-grey lighten-5">
 <!--fixed action button-->
 <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-    <a class="btn-floating btn-large waves-effect waves-circle waves-light blue">
+    <a class="btn-floating btn-large waves-effect waves-circle waves-light red">
         <i class="large material-icons">settings</i>
     </a>
     <ul>
-        <li><a class="btn-floating waves-effect waves-circle waves-light blue"><i class="material-icons">file_download</i></a></li>
-        <li><a class="btn-floating waves-effect waves-circle waves-light blue" id="toggle_color"><i class="material-icons">invert_colors</i></a></li>
+        <li><a class="btn-floating waves-effect waves-circle waves-light orange"><i class="material-icons">file_download</i></a></li>
+        <li><a class="btn-floating waves-effect waves-circle waves-light teal" id="toggle_color"><i class="material-icons">color_lens</i></a></li>
     </ul>
 </div>
 
@@ -47,12 +47,12 @@
             <a href="#!" class="brand-logo">Logo</a>
             <a href="#!" data-activates="nav-mobile" class="left button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#!">ABOUT ME</a></li>
+                <li><a href="#section-about" data-section="#section-about">ABOUT ME</a></li>
                 <li><a href="#!">EXPERIENCES</a></li>
                 <li><a href="#!">SKILLS</a></li>
                 <li><a href="#!">EDUCATION</a></li>
                 <li><a href="#!">INTERESTS</a></li>
-                <li><a href="#!">CONTACT</a></li>
+                <li><a href="#section-contact" data-section="#section-contact">CONTACT</a></li>
             </ul>
             <ul class="side-nav" id="nav-mobile">
                 <li class="mobile-profile">
@@ -64,12 +64,12 @@
                         <h5>Creative UI/UX Expert</h5>
                     </div>
                 </li>
-                <li><a href="#!">About</a></li>
+                <li><a href="#section-about">About</a></li>
                 <li><a href="#!">Experiences</a></li>
                 <li><a href="#!">Skills</a></li>
                 <li><a href="#!">Education</a></li>
                 <li><a href="#!">Interests</a></li>
-                <li><a href="#!">Contact</a></li>
+                <li><a href="#section-contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -100,7 +100,7 @@
 <div class="container">
     <div class="row">
         <div class="col s12 center">
-            <a id="expand-about" data-section="#about" class="btn-floating btn-large blue" href="#about">
+            <a id="expand-about" href="#section-about" data-section="#section-about" class="btn-floating btn-large blue">
                 <i class="material-icons">expand_more</i>
             </a>
         </div>
@@ -109,7 +109,7 @@
 </div>
 
 <!--About me-->
-<div id="about" class="section">
+<div id="section-about" class="section">
     <div class="container">
         <div class="row">
             <div class="col s12 m4">
@@ -133,7 +133,7 @@
 </div>
 
 <!--Contact-->
-<div class="section blue">
+<div id="section-contact" class="section blue">
     <div class="container">
         <div class="row">
             <div class="col s12">
