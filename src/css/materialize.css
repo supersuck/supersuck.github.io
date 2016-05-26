@@ -3319,7 +3319,7 @@ ul li {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #ee6e73;
+  border-left: 5px solid #2196F3;
 }
 
 /* line 113, ../sass/components/_global.scss */
@@ -3379,7 +3379,7 @@ video.responsive-video {
 }
 /* line 162, ../sass/components/_global.scss */
 .pagination li.active {
-  background-color: #ee6e73;
+  background-color: #2196F3;
 }
 /* line 164, ../sass/components/_global.scss */
 .pagination li.disabled a {
@@ -3586,7 +3586,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73;
+  background-color: #2196F3;
 }
 /* line 352, ../sass/components/_global.scss */
 footer.page-footer .footer-copyright {
@@ -4798,7 +4798,7 @@ input[type=range] + .thumb {
 /* line 1, ../sass/components/_navbar.scss */
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #2196F3;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -5504,7 +5504,7 @@ small {
 }
 /* line 31, ../sass/components/_tabs.scss */
 .tabs .tab a {
-  color: #ee6e73;
+  color: #2196F3;
   display: block;
   width: 100%;
   height: 100%;
@@ -5514,11 +5514,11 @@ small {
 }
 /* line 39, ../sass/components/_tabs.scss */
 .tabs .tab a:hover {
-  color: #f9c9cb;
+  color: #82c4f8;
 }
 /* line 44, ../sass/components/_tabs.scss */
 .tabs .tab.disabled a {
-  color: #f9c9cb;
+  color: #82c4f8;
   cursor: default;
 }
 /* line 49, ../sass/components/_tabs.scss */
@@ -5526,7 +5526,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #f6b2b5;
+  background-color: #6ab8f7;
   will-change: left, right;
 }
 
@@ -6362,8 +6362,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #26a69a;
-  box-shadow: 0 1px 0 0 #26a69a;
+  border-bottom: 1px solid #2196F3;
+  box-shadow: 0 1px 0 0 #2196F3;
 }
 /* line 73, ../sass/components/forms/_input-fields.scss */
 input:not([type]):focus:not([readonly]) + label,
@@ -6379,7 +6379,7 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #26a69a;
+  color: #2196F3;
 }
 /* line 78, ../sass/components/forms/_input-fields.scss */
 input:not([type]).valid, input:not([type]):focus.valid,
@@ -6407,8 +6407,8 @@ input[type=search].valid,
 input[type=search]:focus.valid,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea:focus.valid {
-  border-bottom: 1px solid #4CAF50;
-  box-shadow: 0 1px 0 0 #4CAF50;
+  border-bottom: 1px solid #2196F3;
+  box-shadow: 0 1px 0 0 #2196F3;
 }
 /* line 85, ../sass/components/forms/_input-fields.scss */
 input:not([type]).valid + label:after, input:not([type]):focus.valid + label:after,
@@ -6437,7 +6437,7 @@ input[type=search]:focus.valid + label:after,
 textarea.materialize-textarea.valid + label:after,
 textarea.materialize-textarea:focus.valid + label:after {
   content: attr(data-success);
-  color: #4CAF50;
+  color: #2196F3;
   opacity: 1;
 }
 /* line 93, ../sass/components/forms/_input-fields.scss */
@@ -6567,7 +6567,7 @@ textarea.materialize-textarea + label:after {
 }
 /* line 151, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix.active {
-  color: #26a69a;
+  color: #2196F3;
 }
 /* line 154, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix ~ input,
@@ -7582,7 +7582,7 @@ input[type=range]:focus::-ms-fill-upper {
 /* line 113, ../sass/components/_sideNav.scss */
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
-  background-color: #ee6e73;
+  background-color: #2196F3;
 }
 /* line 116, ../sass/components/_sideNav.scss */
 .side-nav .collapsible-body li.active a,
@@ -9054,7 +9054,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
-/* line 1, ../sass/_preloader.scss */
+/* line 1, ../sass/wouyang/_preloader.scss */
 .preloader {
   top: 0;
   right: 0;
@@ -9068,7 +9068,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   z-index: 999;
 }
 
-/* line 14, ../sass/_preloader.scss */
+/* line 14, ../sass/wouyang/_preloader.scss */
 .preloader-container {
   display: block;
   position: fixed;
@@ -9079,12 +9079,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   z-index: 1000;
 }
 
-/* line 1, ../sass/_parallax.scss */
+/* line 1, ../sass/wouyang/_parallax.scss */
 .parallax-container {
   height: 80vh;
 }
 
-/* line 1, ../sass/_button.scss */
+/* line 1, ../sass/wouyang/_button.scss */
 #expand-about {
   margin-top: -28px;
 }
