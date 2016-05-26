@@ -9084,4 +9084,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   height: 80vh;
 }
 
+/* line 1, ../sass/_button.scss */
+#expand-about {
+  margin-top: -28px;
+}
+
 /*# sourceMappingURL=materialize.css.map */

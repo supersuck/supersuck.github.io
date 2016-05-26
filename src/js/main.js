@@ -11,3 +11,4 @@ $(document).ready(function () {
        $('.blue').toggleClass('teal', 'blue');
     });
 });
+
