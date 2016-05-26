@@ -9,7 +9,7 @@
     <script src="src/js/bin/materialize.min.js"></script>
     <script src="src/js/main.js"></script>
 </head>
-<body>
+<body class="blue-grey lighten-5">
 <!--fixed action button-->
 <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
     <a class="btn-floating btn-large blue">
@@ -110,7 +110,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ducimus perspiciatis quo recusandae repellat sed, vitae! Aliquam asperiores blanditiis, dicta eius enim molestiae perferendis repudiandae saepe, suscipit unde veritatis voluptas.</p>
             </div>
             <div class="col s6 m4">
-                <div class="card">
+                <div class="card z-depth-2">
                     <div class="card-image">
                         <img src="src/images/iliko-me.jpg" alt="">
                         <span class="card-title">Iliko et moi</span>
@@ -120,6 +120,45 @@
             <div class="col s6 m4">
                 <h5>Personal info</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad architecto assumenda atque consectetur cum debitis dolor dolorem ea, illo ipsum labore libero necessitatibus numquam officia quia repellat sunt, voluptates!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Contact-->
+<div class="section blue">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="white-text">Contact</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                test
+            </div>
+            <div class="col s12 m6">
+                <form>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="contact-name" type="text" class="validate">
+                            <label for="contact-name">Full Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">email</i>
+                            <input id="contact-email" type="email" class="validate">
+                            <label for="contact-email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">create</i>
+                            <textarea id="contact-message" class="materialize-textarea"></textarea>
+                            <label for="contact-message">Message</label>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
