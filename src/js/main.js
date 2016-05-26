@@ -9,6 +9,7 @@ $(document).ready(function () {
     
     $('#toggle_color').click(function () {
        $('.blue').toggleClass('teal', 'blue');
+       $('.blue-text').toggleClass('teal-text', 'blue-text');
     });
 });
 

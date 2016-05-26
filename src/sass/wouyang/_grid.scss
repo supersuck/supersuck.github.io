@@ -1,0 +1,9 @@
+.section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    @media #{$small-and-down} {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

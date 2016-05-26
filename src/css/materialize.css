@@ -9090,4 +9090,17 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin-top: -28px;
 }
 
+/* line 1, ../sass/wouyang/_grid.scss */
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1, ../sass/wouyang/_grid.scss */
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
 /*# sourceMappingURL=materialize.css.map */
