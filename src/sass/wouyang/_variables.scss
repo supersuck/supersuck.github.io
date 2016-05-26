@@ -45,6 +45,8 @@ $primary-text: rgba(0, 0, 0, 0.87) !default;
 $secondary-text: rgba(0, 0, 0, 0.54) !default;
 $disabled-text: rgba(0, 0, 0, 0.38) !default;
 
+$background-color: color('blue-grey', 'lighten-5') !default;
+
 /* 2. Badges
    ========================================================================== */
 
@@ -136,7 +138,7 @@ $roboto-font-path: "../fonts/roboto/" !default;
 $input-height: 3rem !default;
 $input-border-color: $secondary-text !default;
 $input-border: 1px solid $input-border-color !default;
-$input-background: #fff !default;
+$input-background: $background-color !default;
 $input-error-color: $error-color !default;
 $input-success-color: $success-color !default;
 $input-focus-color: $success-color !default;
