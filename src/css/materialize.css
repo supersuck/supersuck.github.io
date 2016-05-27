@@ -9089,10 +9089,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .btn-middle {
   margin-top: -28px;
 }
-/* line 4, ../sass/wouyang/_button.scss */
-.btn-middle i {
-  color: rgba(0, 0, 0, 0.87);
-}
 
 /* line 1, ../sass/wouyang/_grid.scss */
 .section {
