@@ -5,9 +5,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="src/css/materialize.css">
+    <link rel="stylesheet" href="src/vendor/owl.carousel.2.1.0/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/vendor/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
     <script type="text/javascript" src="src/js/jquery-2.1.1.min.js"></script>
-    <script src="src/js/bin/materialize.min.js"></script>
-    <script src="src/js/main.js"></script>
+    <script type="text/javascript" src="src/js/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="src/vendor/owl.carousel.2.1.0/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="src/js/main.js"></script>
 </head>
 <body class="blue-grey lighten-5">
 <!--fixed action button-->
@@ -78,7 +81,7 @@
 </div>
 
 <!--home-->
-<div id="section-home" class="parallax-container">
+<div id="section-home" class="parallax-container parallax-large">
     <div class="section no-pad-bot">
         <div class="container">
             <br><br>
@@ -87,7 +90,7 @@
                 <h5 class="col s12 light white-text">Les choix de portabilité interne ou externe sont remontés par la ressource</h5>
             </div>
             <div class="row center">
-                <a href="#!" id="download-button" class="btn-large waves-effect waves-light blue">
+                <a href="#section-contact" class="btn-large waves-effect waves-light blue">
                     <i class="material-icons left">send</i>
                     Angelababy
                 </a>
@@ -95,7 +98,7 @@
         </div>
     </div>
     <div class="parallax">
-        <img src="src/images/bg-min.jpg">
+        <img src="src/images/bg-table.jpg">
     </div>
 </div>
 <div class="container">
@@ -145,13 +148,16 @@
 </div>
 
 <!--Skills-->
-<div id="section-skill" class="section">
+<div id="section-skill" class="section parallax-container parallax-white-bg">
     <div class="container">
         <div class="row">
             <div class="col s12">
                 <h3>SKILLS</h3>
             </div>
         </div>
+    </div>
+    <div class="parallax">
+        <img src="src/images/bg-pc-typing.jpg">
     </div>
 </div>
 
@@ -223,17 +229,22 @@
         </div>
         <div class="row">
             <div class="col s12">
-                <ul class="tabs">
-                    <li class="tab col"><a href="#test1">Music</a></li>
-                    <li class="tab col"><a href="#test2">Volley</a></li>
-                    <li class="tab col"><a href="#test3">Football</a></li>
-                    <li class="tab col"><a href="#test6">Badminton</a></li>
-                </ul>
+                <div class="owl-carousel owl-theme">
+                    <div class="owl-item"><img src="src/images/carousel/IMG_20151226_145459.jpg" alt=""></div>
+                    <div class="owl-item"><img src="src/images/carousel/IMG_20160506_152711.jpg" alt=""></div>
+                    <div class="owl-item"><img src="src/images/carousel/IMG_20160507_162713.jpg" alt=""></div>
+                    <div class="owl-item"><img src="src/images/carousel/IMG_20160508_121010.jpg" alt=""></div>
+                    <div class="owl-item"><img src="src/images/carousel/IMG_1438811989199.jpg" alt=""></div>
+                    <div class="owl-item"><img src="src/images/carousel/quiberon.jpg" alt=""></div>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col s12">
-
+            <div class="col s6 right-align">
+                <a id="carousel-prev" class="btn-floating btn-large blue"><i class="material-icons">chevron_left</i></a>
+            </div>
+            <div class="col s6">
+                <a id="carousel-next" class="btn-floating btn-large blue"><i class="material-icons">chevron_right</i></a>
             </div>
         </div>
     </div>

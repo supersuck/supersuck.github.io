@@ -9081,8 +9081,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 /* line 1, ../sass/wouyang/_parallax.scss */
 .parallax-container {
-  height: 80vh;
   background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 4, ../sass/wouyang/_parallax.scss */
+.parallax-container.parallax-large {
+  height: 80vh;
+}
+/* line 8, ../sass/wouyang/_parallax.scss */
+.parallax-container.parallax-white-bg {
+  background: rgba(255, 255, 255, 0.9) none no-repeat scroll 0 0;
 }
 
 /* line 1, ../sass/wouyang/_button.scss */

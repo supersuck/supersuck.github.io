@@ -11,6 +11,21 @@ $(document).ready(function () {
         $('.blue').toggleClass('teal', 'blue');
         $('.blue-text').toggleClass('teal-text', 'blue-text');
     });
+
+
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        center: true,
+        items: 1,
+        loop: true
+    });
+    $('#carousel-prev').click(function () {
+       owl.trigger('prev.owl.carousel', [300]);
+    });
+    $('#carousel-next').click(function () {
+        owl.trigger('next.owl.carousel', [300]);
+    });
+    
 });
 
 // Smooth Scroll
