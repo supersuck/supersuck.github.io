@@ -9079,6 +9079,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   z-index: 1000;
 }
 
+/* line 2, ../sass/wouyang/_navbar.scss */
+nav a {
+  outline: 0;
+}
+
 /* line 1, ../sass/wouyang/_parallax.scss */
 .parallax-container {
   background-color: rgba(0, 0, 0, 0.5);
