@@ -4797,7 +4797,7 @@ input[type=range] + .thumb {
 
 /* line 1, ../sass/components/_navbar.scss */
 nav {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.87);
   background-color: #2196F3;
   width: 100%;
   height: 56px;
@@ -4805,7 +4805,7 @@ nav {
 }
 /* line 9, ../sass/components/_navbar.scss */
 nav a {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.87);
 }
 /* line 11, ../sass/components/_navbar.scss */
 nav i,
@@ -4843,7 +4843,7 @@ nav .button-collapse i {
 /* line 46, ../sass/components/_navbar.scss */
 nav .brand-logo {
   position: absolute;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.87);
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
@@ -4898,7 +4898,7 @@ nav ul li.active {
 nav ul a {
   transition: background-color .3s;
   font-size: 1rem;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.87);
   display: inline-block;
   padding: 0 15px;
   cursor: pointer;
@@ -4945,7 +4945,7 @@ nav .input-field label i {
 }
 /* line 143, ../sass/components/_navbar.scss */
 nav .input-field label.active i {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.87);
 }
 /* line 144, ../sass/components/_navbar.scss */
 nav .input-field label.active {
@@ -4966,13 +4966,13 @@ nav .input-field label.active {
 @media only screen and (min-width: 601px) {
   /* line 164, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
-    line-height: 64px;
+    height: 80px;
+    line-height: 80px;
   }
 
   /* line 168, ../sass/components/_navbar.scss */
   .navbar-fixed {
-    height: 64px;
+    height: 80px;
   }
 }
 @font-face {
