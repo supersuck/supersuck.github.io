@@ -38,6 +38,13 @@ $(function () {
                 $('html,body').animate({
                     scrollTop: target.offset().top
                 }, 1000);
+
+                //navbar focus active class toggle
+                if (!$(this).hasClass('btn')) {
+                    $(this).closest('ul').find('a').removeClass('active');
+                    $(this).addClass('active');
+                }
+
                 return false;
             }
         }

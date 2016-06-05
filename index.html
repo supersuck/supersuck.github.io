@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="src/css/materialize.css">
     <link rel="stylesheet" href="src/vendor/owl.carousel.2.1.0/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="src/vendor/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+
     <script type="text/javascript" src="src/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="src/js/bin/materialize.min.js"></script>
     <script type="text/javascript" src="src/vendor/owl.carousel.2.1.0/owl.carousel.min.js"></script>
@@ -45,12 +47,12 @@
 
 <!--navbar-->
 <div class="navbar-fixed">
-    <nav class="white">
+    <nav>
         <div class="nav-wrapper container">
-            <a href="#section-home" class="brand-logo">Logo</a>
+            <a href="#section-home" class="brand-logo black-text">Logo</a>
             <a href="#!" data-activates="nav-mobile" class="left button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#section-home" data-section="#section-home">HOME</a></li>
+                <li><a href="#section-home" data-section="#section-home" class="active">HOME</a></li>
                 <li><a href="#section-about" data-section="#section-about">ABOUT ME</a></li>
                 <li><a href="#section-experience">EXPERIENCES</a></li>
                 <li><a href="#section-skill">SKILLS</a></li>
@@ -68,13 +70,13 @@
                         <h5>Development Engineer</h5>
                     </div>
                 </li>
-                <li><a href="#section-home">HOME</a></li>
+                <li><a href="#section-home">Home</a></li>
                 <li><a href="#section-about">About</a></li>
-                <li><a href="#!">Experiences</a></li>
-                <li><a href="#!">Skills</a></li>
-                <li><a href="#!">Education</a></li>
-                <li><a href="#!">Interests</a></li>
-                <li><a href="#section-contact">Contact</a></li>
+                <li><a href="#section-experience">Experiences</a></li>
+                <li><a href="#section-skill">Skills</a></li>
+                <li><a href="#section-education">Education</a></li>
+                <li><a href="#section-interests">Interests</a></li>
+                <li><a href="#section-contact" data-section="#section-contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -104,7 +106,7 @@
 <div class="container">
     <div class="row">
         <div class="col s12 center">
-            <a href="#section-about" data-section="#section-about" class="btn-floating btn-large btn-middle blue-grey lighten-5">
+            <a href="#section-about" data-section="#section-about" class="btn btn-floating btn-large btn-middle blue-grey lighten-5">
                 <i class="material-icons black-text">expand_more</i>
             </a>
         </div>
@@ -223,12 +225,12 @@
                     <div class="col s6">
                         <div class="row">
                             <div class="col s12">
-                                <a id="prev" class="btn-floating btn-large"><i class="material-icons blue white-text">chevron_left</i></a>
+                                <a id="prev" class="btn btn-floating btn-large"><i class="material-icons blue white-text">chevron_left</i></a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col s12">
-                                <a id="next" class="btn-floating btn-large"><i class="material-icons blue white-text">chevron_right</i></a>
+                                <a id="next" class="btn btn-floating btn-large"><i class="material-icons blue white-text">chevron_right</i></a>
                             </div>
                         </div>
                         <br/>
@@ -321,10 +323,10 @@
                 </div>
                 <div class="row">
                     <div class="col s6 right-align">
-                        <a id="carousel-prev" class="btn-floating btn-large blue"><i class="material-icons">chevron_left</i></a>
+                        <a id="carousel-prev" class="btn btn-floating btn-large blue"><i class="material-icons">chevron_left</i></a>
                     </div>
                     <div class="col s6">
-                        <a id="carousel-next" class="btn-floating btn-large blue"><i class="material-icons">chevron_right</i></a>
+                        <a id="carousel-next" class="btn btn-floating btn-large blue"><i class="material-icons">chevron_right</i></a>
                     </div>
                 </div>
             </div>

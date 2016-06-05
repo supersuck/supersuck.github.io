@@ -6,10 +6,7 @@
 @import "components/color";
 
 // Variables;
-//@import "components/variables";
-
-// Customized variables
-@import "wouyang/variables";
+@import "components/variables";
 
 // Reset
 @import "components/normalize";
@@ -41,11 +38,3 @@
 @import "components/date_picker/default";
 @import "components/date_picker/default.date";
 @import "components/date_picker/default.time";
-
-// customize scss
-@import "wouyang/preloader";
-@import "wouyang/navbar";
-@import "wouyang/parallax";
-@import "wouyang/button";
-@import "wouyang/grid";
-@import "wouyang/carousel";

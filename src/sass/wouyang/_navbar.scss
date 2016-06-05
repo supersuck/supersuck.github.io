@@ -1,5 +1,22 @@
 nav {
-    a {
-        outline: 0;
+    background-color: #fff;
+
+    ul {
+        a {
+            color: #000;
+            outline: 0;
+            border-right: 1px solid white;
+
+            &:hover, &:active {
+                color: #fff;
+                background-color: color('blue', 'base');
+            }
+
+            &.active {
+                color: #fff;
+                background-color: color('blue', 'base');
+            }
+        }
+
     }
 }
