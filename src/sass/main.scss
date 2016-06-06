@@ -1,6 +1,9 @@
 // Materialize scss
 @import "materialize";
 
+// Import Compass functions
+@import "compass/css3";
+
 // Customize scss
 @import "wouyang/variables";
 @import "wouyang/preloader";

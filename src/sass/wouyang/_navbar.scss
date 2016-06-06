@@ -1,5 +1,21 @@
 nav {
+    color: $primary-text-color-black;
     background-color: #fff;
+
+    .mobile-profile {
+        .profile-inner {
+            h3 {
+                font-size: 16px;
+                font-weight: bold;
+                color: #fff;
+            }
+
+            h5 {
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    }
 
     a {
         color: #000;

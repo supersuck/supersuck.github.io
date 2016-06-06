@@ -5,7 +5,7 @@ require 'compass/import-once/activate'
 http_path = "/"
 css_dir = "src/css"
 sass_dir = "src/sass"
-images_dir = "src/css"
+images_dir = "src/images"
 javascripts_dir = "src/js"
 fonts_dir = "src/fonts"
 sourcemap = true
