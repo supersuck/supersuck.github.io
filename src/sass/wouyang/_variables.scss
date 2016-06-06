@@ -1,0 +1,21 @@
+//colors on light backgrounds
+$primary-text-color-black: rgba(0, 0, 0, 0.87);
+$secondary-text-color-black: rgba(0, 0, 0, 0.54);
+$disabled-text-color-black: rgba(0, 0, 0, 0.38);
+$divider-color-black: rgba(0, 0, 0, 0.12);
+
+$primary-text-color-white: rgb(255, 255, 255);
+$secondary-text-color-white: rgba(255, 255, 255, 0.70);
+$disabled-text-color-white: rgba(255, 255, 255, 0.50);
+$divider-color-white: rgba(255, 255, 255, 0.12);
+
+$primary-color: color('blue', 'base');
+$accent-color: color('pink', 'base');
+
+$icon-color-black: rgb(0, 0, 0);
+$icon-color-active-black: rgba(0, 0, 0, 0.54);
+$icon-color-inactive-black: rgba(0, 0, 0, 0.38);
+
+$icon-color-white: rgb(255, 255, 255);
+$icon-color-active-white: rgb(255, 255, 255);
+$icon-color-inactive-white: rgba(255, 255, 255, 0.5);
