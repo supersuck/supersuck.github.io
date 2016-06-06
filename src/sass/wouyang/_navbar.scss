@@ -3,8 +3,12 @@ nav {
     background-color: #fff;
 
     .mobile-profile {
+        background: transparent image-url("bg-table.jpg") no-repeat scroll center center/cover;
+        min-height: 160px;
+        display: flex;
+        margin-bottom: 1px;
+
         .profile-inner {
-            background: transparent image-url("bg-table.jpg") no-repeat scroll;
             h3 {
                 font-size: 16px;
                 font-weight: bold;
@@ -48,7 +52,7 @@ nav {
         &.side-nav {
             li {
                 a {
-                    margin-left: 1px;
+                    margin-right: 0;
                     margin-bottom: 1px;
 
                     &:hover, &:active {

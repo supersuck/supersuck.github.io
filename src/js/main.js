@@ -4,7 +4,9 @@ $(window).load(function () {
 });
 
 $(document).ready(function () {
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({
+        closeOnClick: true
+    });
     $('.parallax').parallax();
 
     $('#toggle_color').click(function () {
@@ -43,6 +45,11 @@ $(function () {
                 if (!$(this).hasClass('btn')) {
                     $(this).closest('ul').find('a').removeClass('active');
                     $(this).addClass('active');
+                }
+
+                //side-nav
+                if ($(this).closet('ul').hasClass('side-nav')) {
+
                 }
 
                 return false;
