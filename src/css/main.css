@@ -9084,9 +9084,9 @@ nav {
   color: rgba(0, 0, 0, 0.87);
   background-color: #fff;
 }
-/* line 5, ../sass/wouyang/_navbar.scss */
-nav .mobile-profile {
-  background: transparent url('/src/images/profile.jpg?1464270616');
+/* line 6, ../sass/wouyang/_navbar.scss */
+nav .mobile-profile .profile-inner {
+  background: transparent url('/src/images/bg-table.jpg?1464957109') no-repeat scroll;
 }
 /* line 8, ../sass/wouyang/_navbar.scss */
 nav .mobile-profile .profile-inner h3 {
