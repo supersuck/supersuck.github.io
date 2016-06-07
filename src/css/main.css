@@ -9054,6 +9054,22 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
+/* line 2, ../sass/wouyang/_helper.scss */
+.valign-wrapper {
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+}
+/* line 12, ../sass/wouyang/_helper.scss */
+.valign-wrapper .valign {
+  display: block;
+}
+
 /* line 1, ../sass/wouyang/_preloader.scss */
 .preloader {
   top: 0;
