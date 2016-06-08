@@ -20,12 +20,12 @@ $(document).ready(function () {
         loop: true
     });
     $('#carousel-prev').click(function () {
-       owl.trigger('prev.owl.carousel', [300]);
+        owl.trigger('prev.owl.carousel', [300]);
     });
     $('#carousel-next').click(function () {
         owl.trigger('next.owl.carousel', [300]);
     });
-    
+
 });
 
 // Smooth Scroll
@@ -37,7 +37,7 @@ $(function () {
             if (target.length) {
                 $('html,body').animate({
                     scrollTop: target.offset().top
-                }, 1000);
+                }, 'slow', 'easeInSine');
 
                 //navbar focus active class toggle
                 if (!$(this).hasClass('btn')) {
@@ -45,7 +45,7 @@ $(function () {
                     $(this).addClass('active');
                 }
 
-                //side-nav close on clic (can only be settled here)
+                //side-nav close on clic (need to be explicitly used cuz conflits with this function)
                 if ($(this).closest('ul').hasClass('side-nav')) {
                     $('.button-collapse').sideNav('hide');
                 }
