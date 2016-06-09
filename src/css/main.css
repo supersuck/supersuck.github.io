@@ -9080,6 +9080,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-weight: bold;
 }
 
+/* line 3, ../sass/wouyang/_form.scss */
+form .input-field i, form .input-field i.prefix {
+  color: black;
+}
+/* line 6, ../sass/wouyang/_form.scss */
+form .input-field i.active, form .input-field i.prefix.active {
+  color: black;
+}
+/* line 12, ../sass/wouyang/_form.scss */
+form .input-field input.validate + label.active, form .input-field textarea.validate + label.active {
+  color: black;
+}
+/* line 16, ../sass/wouyang/_form.scss */
+form .input-field input:focus:not([readonly]), form .input-field textarea:focus:not([readonly]) {
+  border-color: #2196F3;
+  box-shadow: 0 1px 0 0 #2196F3;
+}
+
 /* line 1, ../sass/wouyang/_preloader.scss */
 .preloader {
   top: 0;
@@ -9112,7 +9130,7 @@ nav {
 }
 /* line 5, ../sass/wouyang/_navbar.scss */
 nav .mobile-profile {
-  background: transparent url('/src/images/bg-table.jpg?1464957109') no-repeat scroll center center/cover;
+  background: transparent url('/src/images/bg-table.jpg?1464719555') no-repeat scroll center center/cover;
   min-height: 160px;
   display: flex;
   margin-bottom: 1px;

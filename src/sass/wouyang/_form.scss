@@ -1,0 +1,22 @@
+form {
+    .input-field {
+        i, i.prefix {
+            color: $icon-color-black;
+
+            &.active {
+                color: $icon-color-black;
+            }
+        }
+
+        input, textarea {
+            &.validate + label.active {
+                color: $icon-color-black;
+            }
+            
+            &:focus:not([readonly]) {
+                border-color: $primary-color;
+                box-shadow: 0 1px 0 0 $primary-color;
+            }
+        }
+    }
+}
