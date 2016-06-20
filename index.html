@@ -131,7 +131,7 @@
                 <div class="card z-depth-2">
                     <div class="card-image">
                         <img src="src/images/iliko-me.jpg" alt="">
-                        <span class="card-title">Mon chat et moi</span>
+                        <span class="card-title">Iliko et moi</span>
                     </div>
                 </div>
             </div>
@@ -388,29 +388,29 @@
             <div class="col s12 l8">
                 <div class="card">
                     <div class="card-content">
-                        <form>
+                        <form id="contact-form" action="cv_form.php" method="GET">
                             <div class="row">
                                 <div class="input-field col s12 l6">
                                     <i class="material-icons prefix">person</i>
-                                    <input id="contact-name" type="text" class="validate">
+                                    <input id="contact-name" name="name" type="text" class="validate">
                                     <label for="contact-name">Full Name</label>
                                 </div>
                                 <div class="input-field col s12 l6">
                                     <i class="material-icons prefix">email</i>
-                                    <input id="contact-email" type="email" class="validate">
+                                    <input id="contact-email" name="email" type="email" class="validate">
                                     <label for="contact-email">Email</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix">create</i>
-                                    <textarea id="contact-message" class="materialize-textarea validate"></textarea>
+                                    <textarea id="contact-message" name="message" class="materialize-textarea validate"></textarea>
                                     <label for="contact-message">Message</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col s12 center">
-                                    <button class="btn waves-effect waves-light blue" type="submit" name="action">
+                                    <button class="btn waves-effect waves-light blue" type="submit">
                                         <i class="material-icons left">send</i>Submit
                                     </button>
                                 </div>
